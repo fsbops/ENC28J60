@@ -2,7 +2,7 @@
 Correção das bibliotecas ETHER_28J60.h e etherShield.h
 
 Os arquivos a seguir permitem a compilação sem erros, ao utilizar um módulo enc28j60 da microchip juntamente com um arduino UNO (atmega328p).
-Realizei testes com código simples, como webserver, getStaticIP e getDHCPandDNS, sendo estes dois últimos adaptados da biblioteca "ethercard".
+Realizei testes com código simples, como webserver, getStaticIP e getDHCPandDNS, sendo estes dois últimos adaptados da biblioteca "ethercard". Talvez, pra códigos que utilizem mais das bibliotecas, seja necessário realizar mais alterações e/ou correções nos arquivos das bibliotecas, por hora, estas alterações me serviram bem.
 
 Baixando as bibliotecas de seus repositórios oficiais e modificando as chamadas da constante "const prog_char *progmem_s" por "const char *progmem_s" em determinados arquivos, também é possível chegar ao mesmo resultado.
 
