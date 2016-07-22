@@ -12,3 +12,11 @@ ip_arp_udp_tcp.h - linha 32, etherShield.h - linha 34, ip_arp_udp_tcp.c - linha 
 Não enviei a sugestão de alteração aos desenvolvedores da biblioteca pois a mesma não é mais mantida. Foi substituída pela biblioteca etherCard. Ainda assim, acredito que esta alteração seja válida pois estas bibliotecas são bastante simples de serem utilizadas e exigem poucos recursos do microcontrolador, deixando assim mais espaço para a execução do código implementado.
 
 Não trata-se exatamente de uma descoberta, mas procurei por alguns dias a fio por uma solução e não encontrei nada explícito sobre tais erros, que até onde vi, são causados por uma das atualizações da IDE do Arduino.
+
+Pinagem, caso seja necessário ;)
+VCC -   3.3V
+Ground - GND -  GND
+Serial Clock - SCK - Pin 13
+Master In Slave Out - MISO ou SO  - Pin 12
+Master Out Slave In - MOSI ou SI  - Pin 11
+Chip Select - CS  - Pin  8 # Pode ser selecionado através da função ether.begin()
