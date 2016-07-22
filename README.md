@@ -13,10 +13,10 @@ Não enviei a sugestão de alteração aos desenvolvedores da biblioteca pois a 
 
 Não trata-se exatamente de uma descoberta, mas procurei por alguns dias a fio por uma solução e não encontrei nada explícito sobre tais erros, que até onde vi, são causados por uma das atualizações da IDE do Arduino.
 
-Pinagem, caso seja necessário ;)
-*VCC -   3.3V
-*Ground - GND -  GND
-*Serial Clock - SCK - Pin 13
-*Master In Slave Out - MISO ou SO  - Pin 12
-*Master Out Slave In - MOSI ou SI  - Pin 11
-*Chip Select - CS  - Pin  8 # Pode ser selecionado através da função ether.begin()
+<p>Pinagem, caso seja necessário ;)</p>
+<p>*VCC -   3.3V</p>
+<p>*Ground - GND -  GND</p>
+<p>*Serial Clock - SCK - Pin 13</p>
+<p>*Master In Slave Out - MISO ou SO  - Pin 12</p>
+<p>*Master Out Slave In - MOSI ou SI  - Pin 11</p>
+<p>*Chip Select - CS  - Pin  8 # Pode ser selecionado através da função ether.begin()</p>
