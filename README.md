@@ -1,6 +1,5 @@
 # ENC28J60
 
-<center>ENC28J60</center>
 Correção das bibliotecas ETHER_28J60.h e etherShield.h
 
 Os arquivos a seguir permitem a compilação sem erros, ao utilizar um módulo enc28j60 da microchip juntamente com um arduino UNO (atmega328p).
